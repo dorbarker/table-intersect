@@ -17,7 +17,7 @@ def arguments():
     parser.add_argument('--delimiter', '-d',
                         default='\t',
                         metavar='CHAR',
-                        help='Table delimiter; must be the same for all files')
+                        help='Table delimiter; same for all files [TAB]')
 
     parser.add_argument('inputs', nargs='+',
                         metavar='PATH',
